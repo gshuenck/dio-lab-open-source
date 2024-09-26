@@ -1,0 +1,23 @@
+h1, h2 ,h3, h4, h5 ,h6, label {
+    color: darkblue;
+    background: blanchedalmond;
+    padding: 1px 50px 1px;
+    width: auto;
+    max-width: 500px;
+    border: 50px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+body {
+    color: aquamarine;
+}
+
+.nega {
+    color: brown;
+    background-clip: initial;
+
+}
+
+[title|="Streaming"] {
+	color: rgb(112, 231, 15);
+}
