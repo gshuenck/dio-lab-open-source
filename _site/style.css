@@ -1,4 +1,4 @@
-h1, h2 ,h3, h4, h5 ,h6, label {
+h1, h2 ,h3, h4, h5 ,h6, label, {
     color: darkblue;
     background: blanchedalmond;
     padding: 1px 50px 1px;
@@ -20,4 +20,20 @@ body {
 
 [title|="Streaming"] {
 	color: rgb(112, 231, 15);
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    border: 15px solid #000;
+    color: antiquewhite;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: blueviolet;
+    border-image-outset: 100px;
+  }
+
+.contain, .cat {
+    border-radius: 50px;
 }

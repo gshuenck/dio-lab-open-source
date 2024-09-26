@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Cherolina;
+    src: url(/cherolina/Cherolina.ttf);
+}
+
+
+p {
+    font-family:  Arial , Cherolina;
+    font-size: large;
+    color: black;
+    font-style: inherit;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    text-indent: 30px;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    text-shadow: -10px 10px 10px blue;
+}
+
+#div1 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid blue;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 30px 30px 5px black ;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 200px;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px gray;
+    opacity: 50%;
+}
+
+.overflow-1 {
+    background-color: rgb(27, 90, 116);
+    border: 9px solid blue;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
